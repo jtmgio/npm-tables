@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { TableModule } from '@memberclicks/npm-tables';
+import { TableModule } from 'npm-tables';
 
 @NgModule({
   declarations: [

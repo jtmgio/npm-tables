@@ -16,18 +16,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/memberclicks/npm-tables"
+    "url": "https://github.com/jtmgio/npm-tables"
   },
   "author": {
     "name": "Joshua Gonzalez",
-    "email": "jgonzalez@memberclicks.com"
+    "email": "jg@jtmg.io"
   },
   "keywords": [
     "angular"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/memberclicks/npm-tables/issues"
+    "url": "https://github.com/jtmgio/npm-tables/issues"
   },
   "devDependencies": {
     "@angular/common": "^4.0.0",
