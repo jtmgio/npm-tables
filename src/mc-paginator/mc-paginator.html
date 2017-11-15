@@ -1,0 +1,49 @@
+<div class="mat-paginator-container">
+	<div class="mat-paginator-page-size _25">
+		<mat-form-field class="mat-paginator-page-size-select">
+			<mat-select
+				class="mat-paginator-page-size-form-control"
+				[value]="pageSize"
+				[aria-label]="intlData.itemsPerPageLabel"
+				(change)="changePageSize($event.value)">
+				<mat-option *ngFor="let pageSizeOption of _displayedPageSizeOptions" [value]="pageSizeOption">
+					{{pageSizeOption}}
+				</mat-option>
+			</mat-select>
+		</mat-form-field>
+		per page
+	</div>		 
+	<div class="mat-paginator-offset _55"></div>
+	<div class="mat-paginator-range-actions _20">
+		page 
+		<mat-form-field  class="mat-paginator-page-size-select">
+			<mat-select
+				class="mat-paginator-page-size-form-control"
+				[value]="currentPage"
+				[aria-label]="intlData.itemsPerPageLabel"
+				(change)="changePage($event.value)">
+				<mat-option *ngFor="let page of getPages()" [value]="page">
+					{{ page  + 1 }}
+				</mat-option>
+			</mat-select>
+		</mat-form-field>
+		of <strong>{{ roundPage( length /pageSize ) }}</strong>
+		<button type="button"
+			class="mat-paginator-navigation-previous"
+			(click)="mcPrevPage()"
+			[attr.aria-label]="_intl.previousPageLabel"
+			[matTooltip]="intlData.previousPageLabel"
+			[matTooltipPosition]="'above'"
+			[disabled]="!hasPreviousPage()">
+			<div class="mat-paginator-increment"></div>
+		</button><button type="button"
+			class="mat-paginator-navigation-next"
+			(click)="mcNextPage()"
+			[attr.aria-label]="_intl.nextPageLabel"
+			[matTooltip]="intlData.nextPageLabel"
+			[matTooltipPosition]="'above'"
+			[disabled]="!hasNextPage()">
+			<div class="mat-paginator-decrement"></div>
+		</button>
+	</div>			
+</div>

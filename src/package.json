@@ -1,0 +1,28 @@
+{
+  "name": "npm-tables",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/memberclicks/npm-tables"
+  },
+  "author": {
+    "name": "Joshua Gonzalez",
+    "email": "jgonzalez@memberclicks.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/memberclicks/npm-tables/issues"
+  },
+  "main": "npm-tables.umd.js",
+  "module": "npm-tables.js",
+  "jsnext:main": "npm-tables.js",
+  "typings": "npm-tables.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}

@@ -1,0 +1,718 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>npm-tables</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	    <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">npm-tables</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="./index.html">npm-tables</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                         href="./overview.html" 
+                                        
+                                         href="./overview.html" 
+                                         class="active" >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="./index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="./modules/AppModule.html" >AppModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/MCPaginatorModule.html" >MCPaginatorModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/MCTableModule.html" >MCTableModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="./components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/MCPaginator.html" >MCPaginator</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/MCTable.html" >MCTable</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/MCTableHeader.html" >MCTableHeader</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="./classes/MCClientDataSource.html" >MCClientDataSource</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MCCustomPaginatorIntl.html" >MCCustomPaginatorIntl</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/MCHTTPDataSource.html" >MCHTTPDataSource</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="./injectables/AbstractTableService.html" >AbstractTableService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="./interfaces/iColumns.html" >iColumns</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/iHTTPData.html" >iHTTPData</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/iMCTable.html" >iMCTable</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="./index.html">npm-tables</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                                href="./overview.html" 
+                                               
+                                                href="./overview.html" 
+                                                class="active" >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="./modules/AppModule.html" >AppModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/MCPaginatorModule.html" >MCPaginatorModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/MCTableModule.html" >MCTableModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="./components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/MCPaginator.html" >MCPaginator</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/MCTable.html" >MCTable</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/MCTableHeader.html" >MCTableHeader</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="./classes/MCClientDataSource.html" >MCClientDataSource</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MCCustomPaginatorIntl.html" >MCCustomPaginatorIntl</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/MCHTTPDataSource.html" >MCHTTPDataSource</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="./injectables/AbstractTableService.html" >AbstractTableService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="./interfaces/iColumns.html" >iColumns</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/iHTTPData.html" >iHTTPData</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/iMCTable.html" >iMCTable</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content overview">
+                   <div class="content-data">
+
+
+<h3>Overview</h3>
+            <div class="text-center module-graph-container">
+                <div id="module-graph-svg">
+                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: dependencies Pages: 1 -->
+<svg width="899pt" height="355pt"
+ viewBox="0.00 0.00 899.00 355.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 351)">
+<title>dependencies</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-351 895,-351 895,4 -4,4"/>
+<text text-anchor="start" x="424.5091" y="-42.4" font-family="sans-serif" font-weight="bold" font-size="14.00" fill="#000000">Legend</text>
+<polygon fill="#ffffb3" stroke="transparent" points="211.5,-10 211.5,-30 231.5,-30 231.5,-10 211.5,-10"/>
+<text text-anchor="start" x="235.129" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Declarations</text>
+<polygon fill="#8dd3c7" stroke="transparent" points="324.5,-10 324.5,-30 344.5,-30 344.5,-10 324.5,-10"/>
+<text text-anchor="start" x="348.2251" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Module</text>
+<polygon fill="#80b1d3" stroke="transparent" points="410.5,-10 410.5,-30 430.5,-30 430.5,-10 410.5,-10"/>
+<text text-anchor="start" x="434.2812" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Bootstrap</text>
+<polygon fill="#fdb462" stroke="transparent" points="507.5,-10 507.5,-30 527.5,-30 527.5,-10 507.5,-10"/>
+<text text-anchor="start" x="531.1732" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Providers</text>
+<polygon fill="#fb8072" stroke="transparent" points="603.5,-10 603.5,-30 623.5,-30 623.5,-10 603.5,-10"/>
+<text text-anchor="start" x="627.2258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
+<g id="clust1" class="cluster">
+<title>cluster_AppModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="8,-70 8,-271 148,-271 148,-70 8,-70"/>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_AppModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="17,-78 17,-130 139,-130 139,-78 17,-78"/>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_AppModule_bootstrap</title>
+<polygon fill="none" stroke="#000000" points="16,-211 16,-263 140,-263 140,-211 16,-211"/>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_MCPaginatorModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="156,-70 156,-271 306,-271 306,-70 156,-70"/>
+</g>
+<g id="clust9" class="cluster">
+<title>cluster_MCPaginatorModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="177,-78 177,-130 285,-130 285,-78 177,-78"/>
+</g>
+<g id="clust12" class="cluster">
+<title>cluster_MCPaginatorModule_exports</title>
+<polygon fill="none" stroke="#000000" points="182,-211 182,-263 292,-263 292,-211 182,-211"/>
+</g>
+<g id="clust15" class="cluster">
+<title>cluster_MCTableModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="314,-138 314,-339 883,-339 883,-138 314,-138"/>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_MCTableModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="426,-146 426,-198 640,-198 640,-146 426,-146"/>
+</g>
+<g id="clust20" class="cluster">
+<title>cluster_MCTableModule_exports</title>
+<polygon fill="none" stroke="#000000" points="322,-279 322,-331 875,-331 875,-279 322,-279"/>
+</g>
+<!-- AppComponent -->
+<g id="node1" class="node">
+<title>AppComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="130.9399,-122 25.0601,-122 25.0601,-86 130.9399,-86 130.9399,-122"/>
+<text text-anchor="middle" x="78" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent</text>
+</g>
+<!-- AppModule -->
+<g id="node2" class="node">
+<title>AppModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="119.6571,-190 116.6571,-194 95.6571,-194 92.6571,-190 36.3429,-190 36.3429,-154 119.6571,-154 119.6571,-190"/>
+<text text-anchor="middle" x="78" y="-167.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppModule</text>
+</g>
+<!-- AppComponent&#45;&gt;AppModule -->
+<g id="edge1" class="edge">
+<title>AppComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M78,-122.2228C78,-122.2228 78,-143.7269 78,-143.7269"/>
+<polygon fill="#000000" stroke="#000000" points="74.5001,-143.7269 78,-153.7269 81.5001,-143.727 74.5001,-143.7269"/>
+</g>
+<!-- AppComponent  -->
+<g id="node3" class="node">
+<title>AppComponent </title>
+<polygon fill="#80b1d3" stroke="#000000" points="132.439,-255 23.561,-255 23.561,-219 132.439,-219 132.439,-255"/>
+<text text-anchor="middle" x="78" y="-232.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent </text>
+</g>
+<!-- AppModule&#45;&gt;AppComponent  -->
+<g id="edge2" class="edge">
+<title>AppModule&#45;&gt;AppComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M78,-190.1061C78,-190.1061 78,-208.991 78,-208.991"/>
+<polygon fill="#000000" stroke="#000000" points="74.5001,-208.9909 78,-218.991 81.5001,-208.991 74.5001,-208.9909"/>
+</g>
+<!-- MCPaginator -->
+<g id="node4" class="node">
+<title>MCPaginator</title>
+<polygon fill="#ffffb3" stroke="#000000" points="276.9358,-122 185.0642,-122 185.0642,-86 276.9358,-86 276.9358,-122"/>
+<text text-anchor="middle" x="231" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">MCPaginator</text>
+</g>
+<!-- MCPaginatorModule -->
+<g id="node5" class="node">
+<title>MCPaginatorModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="298.4846,-190 295.4846,-194 274.4846,-194 271.4846,-190 163.5154,-190 163.5154,-154 298.4846,-154 298.4846,-190"/>
+<text text-anchor="middle" x="231" y="-167.8" font-family="Times,serif" font-size="14.00" fill="#000000">MCPaginatorModule</text>
+</g>
+<!-- MCPaginator&#45;&gt;MCPaginatorModule -->
+<g id="edge3" class="edge">
+<title>MCPaginator&#45;&gt;MCPaginatorModule</title>
+<path fill="none" stroke="#000000" d="M231,-122.2228C231,-122.2228 231,-143.7269 231,-143.7269"/>
+<polygon fill="#000000" stroke="#000000" points="227.5001,-143.7269 231,-153.7269 234.5001,-143.727 227.5001,-143.7269"/>
+</g>
+<!-- MCPaginator  -->
+<g id="node6" class="node">
+<title>MCPaginator </title>
+<polygon fill="#fb8072" stroke="#000000" points="284.4348,-255 189.5652,-255 189.5652,-219 284.4348,-219 284.4348,-255"/>
+<text text-anchor="middle" x="237" y="-232.8" font-family="Times,serif" font-size="14.00" fill="#000000">MCPaginator </text>
+</g>
+<!-- MCPaginatorModule&#45;&gt;MCPaginator  -->
+<g id="edge4" class="edge">
+<title>MCPaginatorModule&#45;&gt;MCPaginator </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M237,-190.1061C237,-190.1061 237,-208.991 237,-208.991"/>
+<polygon fill="#000000" stroke="#000000" points="233.5001,-208.9909 237,-218.991 240.5001,-208.991 233.5001,-208.9909"/>
+</g>
+<!-- MCTableModule -->
+<g id="node9" class="node">
+<title>MCTableModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="599.7036,-255 596.7036,-259 575.7036,-259 572.7036,-255 486.2964,-255 486.2964,-219 599.7036,-219 599.7036,-255"/>
+<text text-anchor="middle" x="543" y="-232.8" font-family="Times,serif" font-size="14.00" fill="#000000">MCTableModule</text>
+</g>
+<!-- MCPaginatorModule&#45;&gt;MCTableModule -->
+<g id="edge7" class="edge">
+<title>MCPaginatorModule&#45;&gt;MCTableModule</title>
+<path fill="none" stroke="#000000" d="M291.4799,-190.027C291.4799,-206.3976 291.4799,-228 291.4799,-228 291.4799,-228 476.2404,-228 476.2404,-228"/>
+<polygon fill="#000000" stroke="#000000" points="476.2404,-231.5001 486.2404,-228 476.2403,-224.5001 476.2404,-231.5001"/>
+</g>
+<!-- MCTable -->
+<g id="node7" class="node">
+<title>MCTable</title>
+<polygon fill="#ffffb3" stroke="#000000" points="631.6545,-190 562.3455,-190 562.3455,-154 631.6545,-154 631.6545,-190"/>
+<text text-anchor="middle" x="597" y="-167.8" font-family="Times,serif" font-size="14.00" fill="#000000">MCTable</text>
+</g>
+<!-- MCTable&#45;&gt;MCTableModule -->
+<g id="edge5" class="edge">
+<title>MCTable&#45;&gt;MCTableModule</title>
+<path fill="none" stroke="#000000" d="M580.8875,-190.1061C580.8875,-190.1061 580.8875,-208.991 580.8875,-208.991"/>
+<polygon fill="#000000" stroke="#000000" points="577.3875,-208.9909 580.8875,-218.991 584.3875,-208.991 577.3875,-208.9909"/>
+</g>
+<!-- MCTableHeader -->
+<g id="node8" class="node">
+<title>MCTableHeader</title>
+<polygon fill="#ffffb3" stroke="#000000" points="544.0646,-190 433.9354,-190 433.9354,-154 544.0646,-154 544.0646,-190"/>
+<text text-anchor="middle" x="489" y="-167.8" font-family="Times,serif" font-size="14.00" fill="#000000">MCTableHeader</text>
+</g>
+<!-- MCTableHeader&#45;&gt;MCTableModule -->
+<g id="edge6" class="edge">
+<title>MCTableHeader&#45;&gt;MCTableModule</title>
+<path fill="none" stroke="#000000" d="M515.2153,-190.1061C515.2153,-190.1061 515.2153,-208.991 515.2153,-208.991"/>
+<polygon fill="#000000" stroke="#000000" points="511.7154,-208.9909 515.2153,-218.991 518.7154,-208.991 511.7154,-208.9909"/>
+</g>
+<!-- MCTableModule&#45;&gt;MCPaginator  -->
+<g id="edge9" class="edge">
+<title>MCTableModule&#45;&gt;MCPaginator </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M486.1609,-237C486.1609,-237 294.4977,-237 294.4977,-237"/>
+<polygon fill="#000000" stroke="#000000" points="294.4977,-233.5001 284.4977,-237 294.4977,-240.5001 294.4977,-233.5001"/>
+</g>
+<!-- MCPaginatorModule  -->
+<g id="node10" class="node">
+<title>MCPaginatorModule </title>
+<polygon fill="#fb8072" stroke="#000000" points="867.4855,-323 728.5145,-323 728.5145,-287 867.4855,-287 867.4855,-323"/>
+<text text-anchor="middle" x="798" y="-300.8" font-family="Times,serif" font-size="14.00" fill="#000000">MCPaginatorModule </text>
+</g>
+<!-- MCTableModule&#45;&gt;MCPaginatorModule  -->
+<g id="edge8" class="edge">
+<title>MCTableModule&#45;&gt;MCPaginatorModule </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M599.609,-228C680.9157,-228 821.0808,-228 821.0808,-228 821.0808,-228 821.0808,-276.7521 821.0808,-276.7521"/>
+<polygon fill="#000000" stroke="#000000" points="817.5809,-276.752 821.0808,-286.7521 824.5809,-276.7521 817.5809,-276.752"/>
+</g>
+<!-- MCTableModule&#45;&gt;MCPaginatorModule  -->
+<g id="edge10" class="edge">
+<title>MCTableModule&#45;&gt;MCPaginatorModule </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M599.7338,-237C668.3932,-237 774.9192,-237 774.9192,-237 774.9192,-237 774.9192,-276.7772 774.9192,-276.7772"/>
+<polygon fill="#000000" stroke="#000000" points="771.4193,-276.7772 774.9192,-286.7772 778.4193,-276.7773 771.4193,-276.7772"/>
+</g>
+<!-- MCTable  -->
+<g id="node11" class="node">
+<title>MCTable </title>
+<polygon fill="#fb8072" stroke="#000000" points="710.6538,-323 637.3462,-323 637.3462,-287 710.6538,-287 710.6538,-323"/>
+<text text-anchor="middle" x="674" y="-300.8" font-family="Times,serif" font-size="14.00" fill="#000000">MCTable </text>
+</g>
+<!-- MCTableModule&#45;&gt;MCTable  -->
+<g id="edge11" class="edge">
+<title>MCTableModule&#45;&gt;MCTable </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M599.6966,-246C635.1009,-246 674,-246 674,-246 674,-246 674,-276.9775 674,-276.9775"/>
+<polygon fill="#000000" stroke="#000000" points="670.5001,-276.9774 674,-286.9775 677.5001,-276.9775 670.5001,-276.9774"/>
+</g>
+<!-- MatSort  -->
+<g id="node12" class="node">
+<title>MatSort </title>
+<polygon fill="#fb8072" stroke="#000000" points="619.8847,-323 554.1153,-323 554.1153,-287 619.8847,-287 619.8847,-323"/>
+<text text-anchor="middle" x="587" y="-300.8" font-family="Times,serif" font-size="14.00" fill="#000000">MatSort </text>
+</g>
+<!-- MCTableModule&#45;&gt;MatSort  -->
+<g id="edge12" class="edge">
+<title>MCTableModule&#45;&gt;MatSort </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M576.955,-255.2228C576.955,-255.2228 576.955,-276.7269 576.955,-276.7269"/>
+<polygon fill="#000000" stroke="#000000" points="573.455,-276.7269 576.955,-286.7269 580.455,-276.727 573.455,-276.7269"/>
+</g>
+<!-- MatTable  -->
+<g id="node13" class="node">
+<title>MatTable </title>
+<polygon fill="#fb8072" stroke="#000000" points="535.9222,-323 462.0778,-323 462.0778,-287 535.9222,-287 535.9222,-323"/>
+<text text-anchor="middle" x="499" y="-300.8" font-family="Times,serif" font-size="14.00" fill="#000000">MatTable </text>
+</g>
+<!-- MCTableModule&#45;&gt;MatTable  -->
+<g id="edge13" class="edge">
+<title>MCTableModule&#45;&gt;MatTable </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M511.1797,-255.2228C511.1797,-255.2228 511.1797,-276.7269 511.1797,-276.7269"/>
+<polygon fill="#000000" stroke="#000000" points="507.6798,-276.7269 511.1797,-286.7269 514.6798,-276.727 507.6798,-276.7269"/>
+</g>
+<!-- MCTableHeader  -->
+<g id="node14" class="node">
+<title>MCTableHeader </title>
+<polygon fill="#fb8072" stroke="#000000" points="443.5654,-323 330.4346,-323 330.4346,-287 443.5654,-287 443.5654,-323"/>
+<text text-anchor="middle" x="387" y="-300.8" font-family="Times,serif" font-size="14.00" fill="#000000">MCTableHeader </text>
+</g>
+<!-- MCTableModule&#45;&gt;MCTableHeader  -->
+<g id="edge14" class="edge">
+<title>MCTableModule&#45;&gt;MCTableHeader </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M486.3669,-246C461.9451,-246 438.875,-246 438.875,-246 438.875,-246 438.875,-276.9775 438.875,-276.9775"/>
+<polygon fill="#000000" stroke="#000000" points="435.3751,-276.9774 438.875,-286.9775 442.3751,-276.9775 435.3751,-276.9774"/>
+</g>
+</g>
+</svg>
+
+                </div>
+                <i id="fullscreen" class="fa fa-expand module-graph-fullscreen-btn" aria-hidden="true"></i>
+                <div class="btn-group">
+                    <button id="zoom-in" class="btn btn-default btn-sm">Zoom in</button>
+                    <button id="reset" class="btn btn-default btn-sm">Reset</button>
+                    <button id="zoom-out" class="btn btn-default btn-sm">Zoom out</button>
+                </div>
+            </div>
+<div class="container-fluid overview">
+    <div class="row">
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-archive"></span></h4>
+                        <p class="card-text">
+                            <a href="./modules.html">3 modules</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-cogs"></span></h4>
+                        <p class="card-text">4 components</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-code-fork"></span></h4>
+                        <p class="card-text">1 injectable</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-file-code-o"></span></h4>
+                        <p class="card-text">3 classes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-info"></span></h4>
+                        <p class="card-text">3 interfaces</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<script src="js/libs/svg-pan-zoom.min.js"></script>
+<script src="js/svg-pan-zoom.controls.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 0;</script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+    </body>
+</html>
